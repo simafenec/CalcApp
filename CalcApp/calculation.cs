@@ -55,7 +55,7 @@ namespace CALC
         public string[] SplitFormula(string formula) {
             //与えられた数式をぶつ切りにする
             List<string> return_list = new List<string>();
-            char[] op = new char[] { '(', ')', '*', '/', '+'};
+            char[] op = new char[] { '(', ')', '*', '/', '+','√'};
             char minus = '-';
             string temp="";
             //マイナス記号が一度きたときtrueにする変数を追加する
@@ -112,7 +112,7 @@ namespace CALC
         //
         public string Calc_new(string[] formula) {
             string temp_ans;
-            string[] op = new string[] { "(", ")", "*", "/", "+" ,"-"};
+            string[] op = new string[] { "(", ")", "*", "/", "+" ,"-","√"};
             if (formula.Length > 1)
             {
                 //まずは括弧を探す
@@ -139,6 +139,21 @@ namespace CALC
                 }
                 else {
                     //括弧がないので計算に移る
+                    //根号を計算する
+                    int ex_root = Array.IndexOf(formula, op[6]);
+                    if (ex_root!=-1) {
+                        double x = double.Parse(formula[ex_root + 1]);
+                        if (x < 0) { return "Error!"; }
+                        else
+                        {
+                            formula[ex_root] = Math.Sqrt(x).ToString();
+                            var list = formula.ToList();
+                            list.RemoveAt(ex_root+1);
+                            formula = list.ToArray();
+                            return Calc_new(formula);
+                        }
+                    }
+                    //掛け算割り算を前から計算する
                     int ex_times = Array.IndexOf(formula, op[2]);
                     int ex_div = Array.IndexOf(formula, op[3]);
                     int[] ints = new int[] { ex_times, ex_div };
@@ -168,6 +183,7 @@ namespace CALC
                         formula = list.ToArray();
                         return Calc_new(formula);
                     }
+                    //引き算を計算する
                     int ex_minus = Array.IndexOf(formula, op[5]);
                     if (ex_minus != -1)
                     {

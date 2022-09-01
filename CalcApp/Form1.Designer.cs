@@ -49,15 +49,17 @@ namespace MyCalculationApp
             this.Key_dot = new System.Windows.Forms.Button();
             this.Key_delete = new System.Windows.Forms.Button();
             this.Key_clear = new System.Windows.Forms.Button();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.Key_root = new System.Windows.Forms.Button();
+            this.Output = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Key_1
             // 
-            this.Key_1.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Key_1.Location = new System.Drawing.Point(39, 376);
+            this.Key_1.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Key_1.Location = new System.Drawing.Point(46, 470);
+            this.Key_1.Margin = new System.Windows.Forms.Padding(4);
             this.Key_1.Name = "Key_1";
-            this.Key_1.Size = new System.Drawing.Size(60, 60);
+            this.Key_1.Size = new System.Drawing.Size(70, 75);
             this.Key_1.TabIndex = 0;
             this.Key_1.Text = "1";
             this.Key_1.UseVisualStyleBackColor = true;
@@ -65,10 +67,11 @@ namespace MyCalculationApp
             // 
             // Key_2
             // 
-            this.Key_2.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Key_2.Location = new System.Drawing.Point(105, 376);
+            this.Key_2.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Key_2.Location = new System.Drawing.Point(122, 470);
+            this.Key_2.Margin = new System.Windows.Forms.Padding(4);
             this.Key_2.Name = "Key_2";
-            this.Key_2.Size = new System.Drawing.Size(60, 60);
+            this.Key_2.Size = new System.Drawing.Size(70, 75);
             this.Key_2.TabIndex = 1;
             this.Key_2.Text = "2";
             this.Key_2.UseVisualStyleBackColor = true;
@@ -76,10 +79,11 @@ namespace MyCalculationApp
             // 
             // Key_3
             // 
-            this.Key_3.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Key_3.Location = new System.Drawing.Point(171, 376);
+            this.Key_3.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Key_3.Location = new System.Drawing.Point(200, 470);
+            this.Key_3.Margin = new System.Windows.Forms.Padding(4);
             this.Key_3.Name = "Key_3";
-            this.Key_3.Size = new System.Drawing.Size(60, 60);
+            this.Key_3.Size = new System.Drawing.Size(70, 75);
             this.Key_3.TabIndex = 2;
             this.Key_3.Text = "3";
             this.Key_3.UseVisualStyleBackColor = true;
@@ -87,10 +91,11 @@ namespace MyCalculationApp
             // 
             // Key_4
             // 
-            this.Key_4.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Key_4.Location = new System.Drawing.Point(39, 310);
+            this.Key_4.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Key_4.Location = new System.Drawing.Point(46, 388);
+            this.Key_4.Margin = new System.Windows.Forms.Padding(4);
             this.Key_4.Name = "Key_4";
-            this.Key_4.Size = new System.Drawing.Size(60, 60);
+            this.Key_4.Size = new System.Drawing.Size(70, 75);
             this.Key_4.TabIndex = 3;
             this.Key_4.Text = "4";
             this.Key_4.UseVisualStyleBackColor = true;
@@ -98,10 +103,11 @@ namespace MyCalculationApp
             // 
             // Key_5
             // 
-            this.Key_5.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Key_5.Location = new System.Drawing.Point(105, 310);
+            this.Key_5.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Key_5.Location = new System.Drawing.Point(122, 388);
+            this.Key_5.Margin = new System.Windows.Forms.Padding(4);
             this.Key_5.Name = "Key_5";
-            this.Key_5.Size = new System.Drawing.Size(60, 60);
+            this.Key_5.Size = new System.Drawing.Size(70, 75);
             this.Key_5.TabIndex = 4;
             this.Key_5.Text = "5";
             this.Key_5.UseVisualStyleBackColor = true;
@@ -109,10 +115,11 @@ namespace MyCalculationApp
             // 
             // Key_6
             // 
-            this.Key_6.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Key_6.Location = new System.Drawing.Point(171, 310);
+            this.Key_6.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Key_6.Location = new System.Drawing.Point(200, 388);
+            this.Key_6.Margin = new System.Windows.Forms.Padding(4);
             this.Key_6.Name = "Key_6";
-            this.Key_6.Size = new System.Drawing.Size(60, 60);
+            this.Key_6.Size = new System.Drawing.Size(70, 75);
             this.Key_6.TabIndex = 5;
             this.Key_6.Text = "6";
             this.Key_6.UseVisualStyleBackColor = true;
@@ -120,10 +127,11 @@ namespace MyCalculationApp
             // 
             // Key_7
             // 
-            this.Key_7.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Key_7.Location = new System.Drawing.Point(39, 244);
+            this.Key_7.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Key_7.Location = new System.Drawing.Point(46, 305);
+            this.Key_7.Margin = new System.Windows.Forms.Padding(4);
             this.Key_7.Name = "Key_7";
-            this.Key_7.Size = new System.Drawing.Size(60, 60);
+            this.Key_7.Size = new System.Drawing.Size(70, 75);
             this.Key_7.TabIndex = 6;
             this.Key_7.Text = "7";
             this.Key_7.UseVisualStyleBackColor = true;
@@ -131,10 +139,11 @@ namespace MyCalculationApp
             // 
             // Key_8
             // 
-            this.Key_8.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Key_8.Location = new System.Drawing.Point(105, 244);
+            this.Key_8.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Key_8.Location = new System.Drawing.Point(122, 305);
+            this.Key_8.Margin = new System.Windows.Forms.Padding(4);
             this.Key_8.Name = "Key_8";
-            this.Key_8.Size = new System.Drawing.Size(60, 60);
+            this.Key_8.Size = new System.Drawing.Size(70, 75);
             this.Key_8.TabIndex = 7;
             this.Key_8.Text = "8";
             this.Key_8.UseVisualStyleBackColor = true;
@@ -142,10 +151,11 @@ namespace MyCalculationApp
             // 
             // Key_9
             // 
-            this.Key_9.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Key_9.Location = new System.Drawing.Point(171, 244);
+            this.Key_9.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Key_9.Location = new System.Drawing.Point(200, 305);
+            this.Key_9.Margin = new System.Windows.Forms.Padding(4);
             this.Key_9.Name = "Key_9";
-            this.Key_9.Size = new System.Drawing.Size(60, 60);
+            this.Key_9.Size = new System.Drawing.Size(70, 75);
             this.Key_9.TabIndex = 8;
             this.Key_9.Text = "9";
             this.Key_9.UseVisualStyleBackColor = true;
@@ -153,10 +163,11 @@ namespace MyCalculationApp
             // 
             // Key_plus
             // 
-            this.Key_plus.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Key_plus.Location = new System.Drawing.Point(237, 178);
+            this.Key_plus.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Key_plus.Location = new System.Drawing.Point(276, 222);
+            this.Key_plus.Margin = new System.Windows.Forms.Padding(4);
             this.Key_plus.Name = "Key_plus";
-            this.Key_plus.Size = new System.Drawing.Size(60, 60);
+            this.Key_plus.Size = new System.Drawing.Size(70, 75);
             this.Key_plus.TabIndex = 9;
             this.Key_plus.Text = "+";
             this.Key_plus.UseVisualStyleBackColor = true;
@@ -164,10 +175,11 @@ namespace MyCalculationApp
             // 
             // Key_minus
             // 
-            this.Key_minus.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Key_minus.Location = new System.Drawing.Point(237, 244);
+            this.Key_minus.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Key_minus.Location = new System.Drawing.Point(276, 305);
+            this.Key_minus.Margin = new System.Windows.Forms.Padding(4);
             this.Key_minus.Name = "Key_minus";
-            this.Key_minus.Size = new System.Drawing.Size(60, 60);
+            this.Key_minus.Size = new System.Drawing.Size(70, 75);
             this.Key_minus.TabIndex = 10;
             this.Key_minus.Text = "-";
             this.Key_minus.UseVisualStyleBackColor = true;
@@ -175,10 +187,11 @@ namespace MyCalculationApp
             // 
             // Key_times
             // 
-            this.Key_times.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Key_times.Location = new System.Drawing.Point(237, 310);
+            this.Key_times.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Key_times.Location = new System.Drawing.Point(276, 388);
+            this.Key_times.Margin = new System.Windows.Forms.Padding(4);
             this.Key_times.Name = "Key_times";
-            this.Key_times.Size = new System.Drawing.Size(60, 60);
+            this.Key_times.Size = new System.Drawing.Size(70, 75);
             this.Key_times.TabIndex = 11;
             this.Key_times.Text = "*";
             this.Key_times.UseVisualStyleBackColor = true;
@@ -186,10 +199,11 @@ namespace MyCalculationApp
             // 
             // Key_div
             // 
-            this.Key_div.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Key_div.Location = new System.Drawing.Point(237, 376);
+            this.Key_div.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Key_div.Location = new System.Drawing.Point(276, 470);
+            this.Key_div.Margin = new System.Windows.Forms.Padding(4);
             this.Key_div.Name = "Key_div";
-            this.Key_div.Size = new System.Drawing.Size(60, 60);
+            this.Key_div.Size = new System.Drawing.Size(70, 75);
             this.Key_div.TabIndex = 12;
             this.Key_div.Text = "/";
             this.Key_div.UseVisualStyleBackColor = true;
@@ -197,10 +211,11 @@ namespace MyCalculationApp
             // 
             // Key_equal
             // 
-            this.Key_equal.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Key_equal.Location = new System.Drawing.Point(237, 442);
+            this.Key_equal.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Key_equal.Location = new System.Drawing.Point(276, 552);
+            this.Key_equal.Margin = new System.Windows.Forms.Padding(4);
             this.Key_equal.Name = "Key_equal";
-            this.Key_equal.Size = new System.Drawing.Size(60, 60);
+            this.Key_equal.Size = new System.Drawing.Size(70, 75);
             this.Key_equal.TabIndex = 13;
             this.Key_equal.Text = "=";
             this.Key_equal.UseVisualStyleBackColor = true;
@@ -208,10 +223,11 @@ namespace MyCalculationApp
             // 
             // Key_rightbrak
             // 
-            this.Key_rightbrak.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Key_rightbrak.Location = new System.Drawing.Point(105, 178);
+            this.Key_rightbrak.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Key_rightbrak.Location = new System.Drawing.Point(122, 222);
+            this.Key_rightbrak.Margin = new System.Windows.Forms.Padding(4);
             this.Key_rightbrak.Name = "Key_rightbrak";
-            this.Key_rightbrak.Size = new System.Drawing.Size(60, 60);
+            this.Key_rightbrak.Size = new System.Drawing.Size(70, 75);
             this.Key_rightbrak.TabIndex = 14;
             this.Key_rightbrak.Text = ")";
             this.Key_rightbrak.UseVisualStyleBackColor = true;
@@ -219,10 +235,11 @@ namespace MyCalculationApp
             // 
             // Key_leftbrak
             // 
-            this.Key_leftbrak.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Key_leftbrak.Location = new System.Drawing.Point(39, 178);
+            this.Key_leftbrak.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Key_leftbrak.Location = new System.Drawing.Point(46, 222);
+            this.Key_leftbrak.Margin = new System.Windows.Forms.Padding(4);
             this.Key_leftbrak.Name = "Key_leftbrak";
-            this.Key_leftbrak.Size = new System.Drawing.Size(60, 60);
+            this.Key_leftbrak.Size = new System.Drawing.Size(70, 75);
             this.Key_leftbrak.TabIndex = 15;
             this.Key_leftbrak.Text = "(";
             this.Key_leftbrak.UseVisualStyleBackColor = true;
@@ -230,10 +247,11 @@ namespace MyCalculationApp
             // 
             // Key_0
             // 
-            this.Key_0.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Key_0.Location = new System.Drawing.Point(105, 442);
+            this.Key_0.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Key_0.Location = new System.Drawing.Point(122, 552);
+            this.Key_0.Margin = new System.Windows.Forms.Padding(4);
             this.Key_0.Name = "Key_0";
-            this.Key_0.Size = new System.Drawing.Size(60, 60);
+            this.Key_0.Size = new System.Drawing.Size(70, 75);
             this.Key_0.TabIndex = 16;
             this.Key_0.Text = "0";
             this.Key_0.UseVisualStyleBackColor = true;
@@ -241,10 +259,11 @@ namespace MyCalculationApp
             // 
             // Key_dot
             // 
-            this.Key_dot.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Key_dot.Location = new System.Drawing.Point(171, 442);
+            this.Key_dot.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Key_dot.Location = new System.Drawing.Point(200, 552);
+            this.Key_dot.Margin = new System.Windows.Forms.Padding(4);
             this.Key_dot.Name = "Key_dot";
-            this.Key_dot.Size = new System.Drawing.Size(60, 60);
+            this.Key_dot.Size = new System.Drawing.Size(70, 75);
             this.Key_dot.TabIndex = 17;
             this.Key_dot.Text = ".";
             this.Key_dot.UseVisualStyleBackColor = true;
@@ -252,10 +271,11 @@ namespace MyCalculationApp
             // 
             // Key_delete
             // 
-            this.Key_delete.Font = new System.Drawing.Font("游ゴシック", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Key_delete.Location = new System.Drawing.Point(171, 112);
+            this.Key_delete.Font = new System.Drawing.Font("游ゴシック", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Key_delete.Location = new System.Drawing.Point(200, 140);
+            this.Key_delete.Margin = new System.Windows.Forms.Padding(4);
             this.Key_delete.Name = "Key_delete";
-            this.Key_delete.Size = new System.Drawing.Size(126, 60);
+            this.Key_delete.Size = new System.Drawing.Size(147, 75);
             this.Key_delete.TabIndex = 18;
             this.Key_delete.Text = "Del\r\n";
             this.Key_delete.UseVisualStyleBackColor = true;
@@ -263,32 +283,45 @@ namespace MyCalculationApp
             // 
             // Key_clear
             // 
-            this.Key_clear.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Key_clear.Location = new System.Drawing.Point(39, 112);
+            this.Key_clear.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Key_clear.Location = new System.Drawing.Point(46, 140);
+            this.Key_clear.Margin = new System.Windows.Forms.Padding(4);
             this.Key_clear.Name = "Key_clear";
-            this.Key_clear.Size = new System.Drawing.Size(126, 60);
+            this.Key_clear.Size = new System.Drawing.Size(147, 75);
             this.Key_clear.TabIndex = 19;
             this.Key_clear.Text = "Clear";
             this.Key_clear.UseVisualStyleBackColor = true;
             this.Key_clear.Click += new System.EventHandler(this.Key_clear_Click);
             // 
-            // richTextBox1
+            // Key_root
             // 
-            this.richTextBox1.BackColor = System.Drawing.SystemColors.Menu;
-            this.richTextBox1.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.richTextBox1.Location = new System.Drawing.Point(26, 34);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(318, 60);
-            this.richTextBox1.TabIndex = 20;
-            this.richTextBox1.Text = "";
-            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
+            this.Key_root.Font = new System.Drawing.Font("游ゴシック", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Key_root.Location = new System.Drawing.Point(200, 223);
+            this.Key_root.Margin = new System.Windows.Forms.Padding(4);
+            this.Key_root.Name = "Key_root";
+            this.Key_root.Size = new System.Drawing.Size(70, 75);
+            this.Key_root.TabIndex = 21;
+            this.Key_root.Text = "√";
+            this.Key_root.UseVisualStyleBackColor = true;
+            this.Key_root.Click += new System.EventHandler(this.Key_root_Click);
+            // 
+            // Output
+            // 
+            this.Output.AutoSize = true;
+            this.Output.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Output.Location = new System.Drawing.Point(30, 60);
+            this.Output.Name = "Output";
+            this.Output.Size = new System.Drawing.Size(0, 37);
+            this.Output.TabIndex = 22;
+            this.Output.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(368, 516);
-            this.Controls.Add(this.richTextBox1);
+            this.ClientSize = new System.Drawing.Size(429, 645);
+            this.Controls.Add(this.Output);
+            this.Controls.Add(this.Key_root);
             this.Controls.Add(this.Key_clear);
             this.Controls.Add(this.Key_delete);
             this.Controls.Add(this.Key_dot);
@@ -309,10 +342,12 @@ namespace MyCalculationApp
             this.Controls.Add(this.Key_3);
             this.Controls.Add(this.Key_2);
             this.Controls.Add(this.Key_1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -338,7 +373,8 @@ namespace MyCalculationApp
         private System.Windows.Forms.Button Key_dot;
         private System.Windows.Forms.Button Key_delete;
         private System.Windows.Forms.Button Key_clear;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private Button Key_root;
+        private Label Output;
     }
 }
 
